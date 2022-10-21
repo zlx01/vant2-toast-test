@@ -22,6 +22,8 @@ test1() {
 
 在Android上正常（只验证了几个Android机型）。
 
+![image-20221022015509556](./assets/image-20221022015509556.png)
+
 ## 原因分析
 
 ![vant自带icon的请求](./assets/vant自带icon的请求.png)
@@ -59,3 +61,5 @@ test2() {
 ![toast-success-icon](./assets/toast-success-icon.png)
 
 发现并未出现上述不显示的问题。而在另一个生产项目中用同一张图片确实复现了问题。怪哉！
+
+部署到GitHub Pages再测试也一切正常。。。
